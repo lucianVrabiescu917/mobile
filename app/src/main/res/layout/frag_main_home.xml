@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent"
+            android:textSize="48sp"
+            android:text="@string/main_home_title"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/meditate"
+            android:layout_width="224dp"
+            android:layout_height="224dp"
+            android:text="@string/main_home_meditate"
+            android:textColor="@color/main"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/accent"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <Button
+            android:id="@+id/progress"
+            android:layout_width="224dp"
+            android:layout_height="224dp"
+            android:text="@string/main_home_progress"
+            android:textColor="@color/main"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/accent"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/meditate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

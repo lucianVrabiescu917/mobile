@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">meditation</string>
+    <string name="main_home_title">Mindfulness</string>
+    <string name="main_home_meditate">Meditate</string>
+    <string name="main_home_progress">Progress</string>
+
+    <string name="main_timer_title">Meditate</string>
+    <string name="main_timer_start">Start</string>
+    <string name="main_timer_stop">Stop</string>
+    <string name="main_timer_insertLocation">Insert location</string>
+    <string name="main_timer_locationHint">unknown location</string>
+    <string name="main_timer_locationEmpty">Location can\'t be empty</string>
+
+    <string name="item_time_label">Time</string>
+    <string name="item_location_label">Location</string>
+    <string name="item_delete">Remove</string>
+    <string name="item_update">Update</string>
+
+    <string name="main_list_id_format">#%s</string>
+    <string name="main_list_location_label">New location:</string>
+    <string name="main_list_location_hint">unknown location </string>
+    <string name="main_list_update">Update location</string>
+
+</resources>

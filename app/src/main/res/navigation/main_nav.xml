@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainHome">
+
+    <fragment
+        android:id="@+id/mainHome"
+        android:name="ro.luci.meditation.fragment.MainHome"
+        android:label="MainHome">
+
+        <action
+            android:id="@+id/action_mainHome_to_mainTimer"
+            app:destination="@id/mainTimer" />
+
+        <action
+            android:id="@+id/action_mainHome_to_mainProgress"
+            app:destination="@id/mainProgress" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainTimer"
+        android:name="ro.luci.meditation.fragment.MainTimer"
+        android:label="MainTimer">
+
+        <action
+            android:id="@+id/action_mainTimer_to_mainHome"
+            app:destination="@id/mainHome" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainProgress"
+        android:name="ro.luci.meditation.fragment.MainProgress"
+        android:label="MainProgress">
+    </fragment>
+
+</navigation>
